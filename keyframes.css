@@ -1,0 +1,16 @@
+.boxloop{
+    --square: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--square);
+    height: var(--square);
+    background-color: hsl(0, 44%, 50%);
+    color: white;
+    text-align: center;
+}
+
+.section__boxloop{
+    width: 80%;
+    margin: 5rem auto;
+}
